@@ -15,5 +15,8 @@ namespace eTicketz.Models
         public string  Logo { get; set; }
         public string  Name { get; set; }
         public string Description { get; set; }
+
+        //Relationships - Property - Using a 'List (Array) Data Type
+        public List<Movie> Movies { get; set; }
     }
 }
