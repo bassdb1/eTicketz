@@ -21,6 +21,8 @@ namespace eTicketz.Models
         //.. example, of default values of a property-> public int MyProperty { get; set; }
         // list = data type, 'Movies' = Property Name
 
+        // ** '1 to Many Relationship' from 'Producer Table' to 'Movie Table' **
+
         public List<Movie> Movies  { get; set; }
     }
 }
