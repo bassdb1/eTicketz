@@ -15,7 +15,7 @@ namespace eTicketz.Models
         public string FullName { get; set; }
         public string Bio { get; set; }
 
-        //Relationships - Property of type 'List'
+        //Relationships - Property of type 'List' Data Type
         // We said the producer can have multiiple Movies, 
         // going to rename from 'MyProperty' to Movies
         //.. example, of default values of a property-> public int MyProperty { get; set; }

@@ -7,7 +7,7 @@ namespace eTicketz.Models
 {
     public class Actor_Movie
     {
-        // This Model/table will store our MovieId and ActorId for the many to many relationship
+        // This Model/table will store our 'MovieId' and 'ActorId' for the many to many relationship
         public int MovieId { get; set; } // -- MovieID id the FK for 'Movie' Model Below.
         public Movie Movie { get; set; } // -- 'Movie' Model/Table
 
